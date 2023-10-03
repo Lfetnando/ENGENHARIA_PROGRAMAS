@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>CSS</title>
+
+    <!-- 2a - Internal CSS-->
+    <Style>
+        p{
+            font-size: 30px;
+            color:red
+        }
+    </Style>
+
+    <!-- 3a - External CSS-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- 1 - CSS inline-->
+    <h1 style=" color: gold">Mudar a cor com o InLine</h1>
+    <h2 style=" color: gray">outro título</h2>
+ 
+    <!-- 2b - Internal CSS-->
+    <p>Eu fui estilizado pelo internal CSS </p>
+    <p>Mais um</p>
+    <p>Outro</p>
+
+    <!-- 3b - CSS Externo-->
+    <h3>Meu titulo estilizado por CSS externo</h3>
+
+    <!-- 4 - Ordem de importância no CSS-->
+    <p style="color: brown;">Ordem de importância no CSS</p>
+
+    <!-- 5 - classes / podemos repetir a mesma classe em vários elementos -->
+    <p class="paragrafo">Algum texto</p>
+    <p class="paragrafo">Outro texto</p>
+    <p class="paragrafo">Ultimo texto</p>
+
+    <!-- 6 - id / não podemos repetir o mesmo id em vários elementos-->
+    <h2 id="titulo-exclusivo">Um titulo que tem um id</h2>
+
+    <!-- 7 - Especificidade do CSS-->
+    <h2 class="titulo" id="algum-titulo">Algum texto</h2>
+    <h2 class="titulo">Outro texto</h2>
+    <h2>Indigente</h2>
+
+    <!-- 8 - hexadecimal-->
+    <p class="hexadecimal">Parágrafo com hexadecimal</p>
+
+    <!-- 9 - RGB-->
+    <p class="rgb">Parágrafo com RGB</p>
+
+    <!---10 - RGBA-->
+    <p class="rgba">Parágrafo com fundo RGBa</p>
+</body>
+</html>

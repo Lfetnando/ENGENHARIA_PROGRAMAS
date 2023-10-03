@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Radio</title> <!-- Maneira d comunicar com usuario-->
+</head>
+
+<body>
+    <form action="">
+        <div>
+            <label for="">Nome</label> <!-- label é o espaço de input, quadrado | caixa de entrada-->
+            <input type="text" id="nome" placeholder="Digite seu nome..." required>
+        </div>
+
+        <!-- input radio-->
+        <div>
+            <p>Você está vendo a aula?</p>
+
+            <div>
+                <input type="radio" id="sim" name="assistindo">
+                <label for="sim">Sim</label>
+            </div>
+            <div>
+                <input type="radio" id="talvez" name="assistindo">
+                <label for="talvez">Talvez</label>
+            </div>
+            <div>
+                <input type="radio" id="nao" name="assistindo">
+                <label for="nao">Não</label>
+            </div>
+        </div>
+
+        <button>enviar</button>
+    </form>
+</body>
+
+</html>

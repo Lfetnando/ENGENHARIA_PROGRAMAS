@@ -1,0 +1,51 @@
+/* 'border' - Bordas de elementos*/
+h1{
+/* espessura, tipo (estilo) e a cor */
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(255, 0, 0);
+}
+
+/* border - shorthand*/
+h1{
+    border: 5px solid rgb(255, 125, 0);
+}
+
+.texto{
+    border: 2px dashed #00FF
+}
+
+/* Width - largura*/
+h1{
+    width: 200px;
+}
+
+p{
+    width: 500px;
+}
+
+/* Height - altura*/
+h1{
+    height: 100px;
+    /*text-align: center;*/
+}
+
+p{
+    height: 250px;
+}
+
+/* Padding - preenchimento */
+h1{
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+#titulo{
+    border: 2px dotted #f0f;
+    width:   fit-content;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+}
+

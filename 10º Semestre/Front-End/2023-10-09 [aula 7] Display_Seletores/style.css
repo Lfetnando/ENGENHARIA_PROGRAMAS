@@ -1,0 +1,39 @@
+span{
+    border: 2px solid red;
+}
+
+p{
+    border: 2px solid blue;
+    font-size: 5rem;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    margin-inline: auto;
+}
+
+img{
+    border: 2px solid #0F0;
+}
+.imagem2{
+    margin-bottom: 2rem;
+}
+
+/*
+    display: inline (span, strong, em, a, label)
+    - ocupa de largura apenas o esaço necessario para o conteudo
+    - não é possivel utilizar widht e height
+    - faz com que o elemento se comporte como uma palavra
+    - padding e margin funcionam parcialmente apenas na horizontal
+
+    display: block (header, main, div, section, p, figure, footer, ul - lista, al, table)
+    - ocupa de largura todo o espaço disponivel na tela do usuario
+    - faz com que o element se comporte como uma caixa (retangulo)
+    - é possivel utilizar widht e height, padding e margin perfeitamente.
+
+    display: inline-block (button, img, input)
+    - mistura os comportamntos do display inline e display block
+    - faz com que o elemento se comporte como uma palavra
+    - faz com que o elemento se comporte como uma caixa (retangulo)
+    - ocupa de largura apenas o espaço necessario para o conteudo
+    - é possivel utilizar widht, height, padding e margin perfeitamente
+*/
